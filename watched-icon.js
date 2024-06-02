@@ -26,16 +26,16 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
-  // ++++++++++++++++++++++++++++++++++++++++++++++ 
+
 
 function handleImageError(img) {
   img.src = 'https://i.imgur.com/MXnSqzd.png';
 }
-        // تطبيق تأخير عشوائي لكل عنصر .marquee
-        document.querySelectorAll('.marquee').forEach((el, index) => {
-            const delay = Math.random() * 6; // تأخير عشوائي يصل إلى 5 ثواني
-            el.style.animationDelay = `${delay}s`;
-        });
-        
-  // ++++++++++++++++++++++++++++++++++++++++++++++ 
+ 
+
+document.querySelectorAll('.marquee').forEach((el, index) => {
+  const delay = Math.random() * 6; // تأخير عشوائي يصل إلى 6 ثوان
+  el.style.animation = 'marquee 10s linear infinite';
+  el.style.animationDelay = `${delay}s`;
+});
 
