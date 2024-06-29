@@ -1,0 +1,17 @@
+// manifest.json
+
+{
+    "name": "qouran  Player",
+    "short_name": "quran mp3",
+    "description": "quran NO ADS",
+    "start_url": "https://www.appcreator24.com/intra/intra.php?idioma=en&idsesion=dyo57vzn92bxi3gtf8chslra01pkeq6jmwu4&pag=21&idapp=2379994",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "red",
+    "icons": [
+        {
+            "src": "https://i.imgur.com/QYQOGUX.png",
+            "sizes": "96x96",
+            "type": "image/png"
+        }
+    ]
